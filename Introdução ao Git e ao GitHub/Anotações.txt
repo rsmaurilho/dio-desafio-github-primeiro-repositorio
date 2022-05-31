@@ -1,0 +1,79 @@
+link para download do Git: https://git-scm.com/downloads
+
+
+O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+Git - comandos 
+
+
+windows    unix
+-cd        -cd
+-dir       -ls
+-mkdir     -mkdir
+-del/rmdir -rm -rf
+
+retroceder cd..
+
+limpar tela
+windows      unix
+-cls        -clear ou ctrl+l
+
+tab completa palavras
+
+mkdir cria pasta
+
+del para deletar arquivos
+
+echo printa o que foi escrito na tela 
+ 
+windows
+rmdir deleta pasta com arquivos dentro
+ ex: rmdir workspace /S /Q
+
+unix
+rm -rf deleta pasta com arquivos dentro
+ex: rm -rf workspace/
+
+
+blobs - so guarda o sha
+tree - aponta blob e o nome do arquivo
+
+criando chave git
+ssh -keygen -t ed25519 -c email
+
+$eval$(ssh-agent -s) ativa o agente para controlar a chave
+
+
+$ssh-add id_ed25519 - passa a chave privada para o agente
+
+cat - serve pra ver o conteudo 
+
+comandos 
+-git init -cria-se o repositorio
+-git add
+-git commit
+
+ ls -a para ver a pasta .git
+
+git config -- global user.email "email.com"
+
+git config --global user.name nome_usuario
+
+git add*
+
+git commit -m "commit inicial"
+
+
+tracked tem 3 estados unmodifide
+modifide e stage
+
+git config list -lista de configuração
+
+git remote add origin endereço do git
+
+git status
+
+git push origin master
+
+git pull oring master
+
