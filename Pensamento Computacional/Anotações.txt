@@ -1,0 +1,22 @@
+Raciocinio logico e uma forma de pensamento estruturado ou raciocineo que permite encontrar a conclusao ou determianar a resolucao de um problema.
+
+Classificação - indução dedução abdução :
+
+                                                     inferencia  
+
+pensamento por                 sintese                                      analitica
+
+                         abdução     indução                                                  dedução
+
+decompor - quebra e achar partes menores gerenciáveis    ou  combine os elementos recompondo o problema original 
+
+estrategia sequencial ou paralelo
+
+como decompor? identifica ou coleta dados ,agrega os dados , funcionalidade 
+exemplo: cozinhar
+
+abstrair - observar um ou mais elementos avaliando características e propriedades em separado
+
+abstração - processo intelectual de isolamento de um objeto da realidade 
+ generalizar - tornar-se geral mais amplo extensão
+generalização, na logica e a operação intelectual que consiste em reunir numa classe geral um conjunto de seres ou fenômenos similares
