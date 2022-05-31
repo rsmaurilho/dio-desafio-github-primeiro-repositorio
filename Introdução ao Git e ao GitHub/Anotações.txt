@@ -77,3 +77,10 @@ git push origin master
 
 git pull oring master
 
+sequencia 
+git status
+git add .
+git status
+git commit -m "descreva o commit" 
+git status
+git push origin main
