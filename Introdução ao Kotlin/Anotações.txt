@@ -1,0 +1,171 @@
+Kotlin 
+tipos de Dados
+println(Int.MaxValue)
+     println(Long.MAX_VALUE)
+      println(Float.MAX_VALUE)
+       println(Double.MAX_VALUE)
+        println(Array.MAX_VALUE)
+         println(Boolean.MAX_VALUE)
+          println(Char.MAX_VALUE)
+           println(Byte.MAX_VALUE)
+            println(Short.MAX_VALUE)
+             println(Null.MAX_VALUE)
+
+Conversão:
+
+toByte()
+toShort()
+toInt()
+toLong()
+toFloat()
+toDouble()
+toChar()
+toString()
+
+Declaracao de variavel
+
+var - mutavel, Camelcase
+val - imutável,camelcase
+const val - imutável,SNAKE_CASE
+
+? - nulabilidade
+essa variavel so sera nula se foi colocado o "?"
+
+ex:
+var month:Int? = null
+
+Operadores Aritiméticos:
+
+operadores      expressão   comando   atribuição
+soma            a+b         a.plus(b)    a+=b
+subtração       a-b         a.minus(b)   a-=b
+multiplicação   a*b         a.times(b)   a*=b
+divisão         a/b         a.div(b)     a/=b 
+resto           a%b         a.mod(b)     a%=b
+ 
+Função e expressões
+ 
+E  (&&) and
+ou (||) or
+In         - contém
+(!In)      - Não contém
+(Int..Int) - range/faixa de valores
+
+string
+capitalize()
+toUpperCase()
+toLowerCase()
+decapitalize
+
+Remoção de espaços
+trimEnd() ,trimStart(),trim()
+
+substituição de espaços
+repalce(x,y)
+
+formatação 
+"padrao ${valor}.format(valor)"
+
+exemplo:
+fun main(){
+ val welcome = "bem vinda(o)"
+ var name ="Luisa"
+ println ("$welcome, ${name.capitalize()}!")
+ 
+}
+
+Empty x Blank
+
+fun main(){
+val empty = ""
+println(empty.length)
+
+val blank="              "
+println(blank.length)
+
+println(empty.isEmpty() && empty.isBlank())
+pirntln(blank.isEmpty() && blank.isBlank())
+}
+
+Funções
+
+fun nomeDaFunção(nome:Tipo):TipoRestorno{}
+
+private fun getFullName(name:String,lastname:String){
+	val fullname ="$name $lastName
+	return fullname
+
+
+private fun getFullname(name:String,lastname:String)="$name $lastName
+
+
+funcao superiores 
+val x = calculate(12,4,::sum)
+
+
+funções / extensões
+fun String.randomCapitalixeLetter()=
+	this[(0..this.length-1).random()].toUpperCase()
+
+Estruturas de controle
+
+if(expressão){                    when{
+}else if (expressão2){            case1 ->{}
+//bloco de codigo                 case2 ->{}
+}else{                            case3 ->{}
+//bloco de codigo                 else ->{}
+}                                 }
+
+elvis operator
+var a:Int? = null
+var number = a ?: 0
+
+
+
+//função Principal
+fun main() {
+    val grade = (0..10).random()
+    println(grade.getStudentStatus())
+}
+fun Int.getStudentStatus():String{
+    println("nota $this")
+
+	return when(this){
+     in 0..4 -> "Reprovado"
+     in 5..7 -> "Mediano"
+     in 8..9 -> "Bom"
+     10 -> "Excelente"
+        else -> "Indefinido"
+    }
+}
+
+Repetição
+                          do{
+while (condição){          //bloco
+}                         }while(condição)
+
+for(i in 0..20 step 2){
+ 	print(i)
+
+
+in/until/downTo/step
+
+in ate o valor final estabelecido
+until conta sem o ultimo valor
+downTo reverso in
+step pula intervalo
+
+fun main(){
+    letters()
+}
+
+fun letters(){
+val sArray ="Olha essa string!"
+//tamanho do array
+//casa posição do array
+for(l in sArray){
+	//l[index]
+	println(l.uppercase())
+	}
+}
+
